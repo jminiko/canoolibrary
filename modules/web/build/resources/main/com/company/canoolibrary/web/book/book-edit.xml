@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editorCaption"
+        class="com.company.canoolibrary.web.book.BookEdit"
+        datasource="bookDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.company.canoolibrary.web.book">
+    <dsContext>
+        <datasource id="bookDs"
+                    class="com.company.canoolibrary.entity.Book"
+                    view="_local"/>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="bookDs">
+            <column width="250px">
+                <field property="title"/>
+                <field property="issueDate"/>
+                <field property="excerpt"
+                       rows="5"/>
+                <field property="isbn"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>
