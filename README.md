@@ -6,7 +6,6 @@ This exercise is done with [cuba platform](https://www.cuba-platform.com/)
 once you have downloaded the source:
 get 
 - gradle version 4.10 & 
-& 
 - java 8u.131 (won't work with 9 or 7)
 
 in the main directory (canoolibrary)
@@ -28,8 +27,8 @@ head up to:
 see the 
 **postman/canoo.postman_collection.json**
 it is a postman configuration file you can import in the latest version of Postman (https://www.getpostman.com/)
-launch the auth request,
-then the book request
+launch the **auth** request,
+then the **book** request
 
 - [x] web tier is complete (through to cuba/vaadin)
 - [ ] REST tier is almost complete, one has to check for the authorization and queries against Book entity
