@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "a3c3ac9b-882a-407c-9884-b63cbb03be77",
+		"_postman_id": "80f1dba3-0d0d-4308-9ecd-57b4e42f01cc",
 		"name": "canoo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -139,9 +139,12 @@
 						"value": "password"
 					}
 				],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
-					"raw": "http://localhost:8080/canoo/rest/v2/entities/canoolibrary$Book/",
+					"raw": "http://localhost:8080/canoo/rest/v2/entities/canoolibrary$Book?limit=1&offset=1&returnCount=true&sort=issueDate",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -152,8 +155,25 @@
 						"rest",
 						"v2",
 						"entities",
-						"canoolibrary$Book",
-						""
+						"canoolibrary$Book"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1"
+						},
+						{
+							"key": "offset",
+							"value": "1"
+						},
+						{
+							"key": "returnCount",
+							"value": "true"
+						},
+						{
+							"key": "sort",
+							"value": "issueDate"
+						}
 					]
 				}
 			},
