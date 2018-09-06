@@ -19,12 +19,14 @@ then upon successful compilation:
 **java -jar build/distributions/uberJar/canoo.jar**
 
 Now for the 
-1- web tier
+
+### 1- Web tier
 head up to:
 [localhost:8080/canoo](http://localhost:8080/canoo)
 
-2- REST Tier
-see the postman/canoo.postman_collection.json
+### 2- REST Tier
+see the 
+**postman/canoo.postman_collection.json**
 it is a postman configuration file you can import in the latest version of Postman (https://www.getpostman.com/)
 launch the auth request,
 then the book request
