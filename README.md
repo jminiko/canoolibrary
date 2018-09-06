@@ -22,8 +22,11 @@ Now for the
 ### 1- Web tier
 head up to:
 [localhost:8080/canoo](http://localhost:8080/canoo)
+
 the credentials:
+
 **id: admin**
+
 **password: admin**
 
 ### 2- REST Tier
